@@ -1,0 +1,36 @@
+.profile-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 15px;
+  font-family: roboto, arial;
+  color: #192d4b;
+  line-height: 500px;
+  text-align: center;
+  background: white;
+  position: absolute;
+  left: 50%;
+  /* top: 50%; */
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  margin-top: 3vw;
+}
+
+.profile-init {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-icon,
+.prepreg-icon,
+.postpreg-icon,
+.reminders-icon,
+.form-icon {
+  display: block;
+  color: white;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 2vw;
+}

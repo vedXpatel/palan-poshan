@@ -1,0 +1,53 @@
+.form{
+    background: white;
+    width: 100vw;
+    height: 100vh;
+    color: #192D4B;
+    overflow-x: hidden;
+}
+
+.form input{
+    background: white;
+    border: none;
+    border-bottom: 3px solid #192D4B;
+    color: #192D4B;
+    font-family: Poppins;
+    font-size: 24px;
+    outline: none;
+    position: relative;
+    top: 12vh;
+    left: 20vw;
+    width: 40%;
+}
+
+.form input:active{
+    border:none;
+    border-bottom: 3px solid #192D4B;
+    outline: none;
+}
+
+.formLabel{
+    color: #192D4B;
+    font-family: Poppins;
+    font-size: 36px;
+    outline: none;
+    position: relative;
+    top: 12vh;
+    left: 20vw;
+    margin-bottom: 50px;
+}
+
+.formButton{
+    border: 3px solid #192D4B;
+    color: #192D4B;
+    font-family: Poppins;
+    font-size: 24px;
+    position: relative;
+    top: 12vh;
+    left: 20vw;
+}
+
+.formButton:hover{
+    background: #192D4B;
+    color: white ;
+}

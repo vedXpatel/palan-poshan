@@ -1,0 +1,51 @@
+.form1{
+    background: #192D4B;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.form1 input{
+    background: #192D4B;
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+    font-family: Poppins;
+    font-size: 36px;
+    outline: none;
+    position: relative;
+    top: 40vh;
+    left: 20vw;
+}
+
+.form1 input:active{
+    border:none;
+    border-bottom: 3px solid white;
+    outline: none;
+}
+
+.formLabel1{
+    color: white;
+    font-family: Poppins;
+    font-size: 36px;
+    outline: none;
+    position: relative;
+    top: 40vh;
+    left: 20vw;
+    margin-bottom: 50px;
+}
+
+.formButton1{
+    border: 3px solid white;
+    color: white;
+    font-family: Poppins;
+    font-size: 36px;
+    position: relative;
+    top: 40vh;
+    left: 20vw;
+}
+
+.formButton1:hover{
+    background: white;
+    color: #263238 ;
+}

@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup-page{
+  background-color: #192d4b;
+  display : flex;
+ height : auto;
+    min-height : 100%;
+
+}
+
+.signup-form{
+    width: 40vw;
+    margin:auto;
+}
+
+.signup-p{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 27px;
+    color: white;
+    width: 23vw;
+    margin: auto;
+    padding-bottom: 2vw;
+}
+
+.signup-h1 {
+    font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+  line-height: 72px;
+  color: #ffffff;
+  padding-bottom: 1vw;
+  width: 36vw;
+  margin: auto;
+}
+
+.signup-main {
+    margin: 100px auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #fff;
+    font-family: roboto;
+    font-weight: 400;
+    height: 580px;
+    width: 420px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #192D4B;
+    border-radius: 15px;
+
+
+
+}
+
+input::placeholder {
+    position: absolute;
+  font-size: 1.2vw;
+  left: 0.56vw;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+
+.inp {
+    position: relative;
+  background: #ffffff;
+  border-radius: 1.61vw;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.41vw;
+  line-height: 18px;
+  border: 0px;
+  color: #2b3041;
+  margin-bottom: 2vw;
+  width: 26.8vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.inp:placeholder-shown~label {
+    font-size: 1rem;
+    cursor: text;
+    top: 20px;
+    left: 16px;
+    color: #80868b;
+    font-weight: 400
+}
+
+.inp:focus~label {
+    top: 2px;
+    left: 10px;
+    font-size: .8rem;
+    font-weight: 400;
+    color: #1a73e8;
+}
+
+.inp:focus {
+    border-width: 2px;
+    border: 2px solid #1a73e8;
+    border-radius: .5rem
+}
+
+
+
+.signup-button {
+    width: 100%;
+}
+
+.signup-button {
+    display:block;
+    background: #1d90f4;
+    border-radius: 2.42vw;
+    width: 16vw;
+    height: 3vw;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2vw;
+    line-height: 30px;
+    border: 0px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vw;
+
+}
+
+
+
+.login-google {
+    display:block;
+    border-radius: 2.42vw;
+    width: 16vw;
+    height: 3vw;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2vw;
+    line-height: 30px;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .google-icon {
+    font-size: 1.5vw;
+    padding-right: 0.2vw;
+  }
+
+.signup-button:hover {
+   background: #4885d4;
+}
+
+.signup-link
+{
+    text-decoration: none;
+  color: #2c8bdf;
+}

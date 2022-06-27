@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.appt-heading{
+  padding-top: 3vw;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.5vw;
+  line-height: 72px;
+  padding-bottom: 1vw;
+  width: 36vw;
+  margin: auto;
+  padding-bottom: 3vw;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.appt-content{
+  width:80vw;
+  margin:auto;
+  font-family: "Montserrat";
+}
+
+.add-todo{
+ font-size: 3vw;
+}
+
+.appt-btn{
+  margin-top:1vw;
+  background-color: #192d4b;
+}
+
+.todo-list{
+  margin-top:2vw;
+}
